@@ -1,0 +1,118 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+header{
+	position:sticky;
+	top:0px;
+	z-index:99;
+}
+html{
+	scroll-behavior: smooth;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Montserrat', sans-serif;
+}
+.about-img img{
+	height:450px;
+	object-fit:cover;
+}
+.font-f{
+	font-family: system-ui;
+}
+.slider img,.about-img img,.doctor-box img,.service-box img,.gallery-img img{
+	width:100%;
+}
+.hover-green:hover{
+	color:#44CC6D!important;transition: color 1s;
+}
+.white-color{
+	color:#ffffff!important;
+}
+.primary-bg{
+	background-color:#44CC6D;
+}
+.primary-color{
+	color:#44CC6D;
+}
+.secondary-color{
+	color:#000843;
+}
+.secondary-bg{
+	background-color:#000843;
+}
+.ptb-40{
+	padding:40px 0px!important;
+}
+.p-5{
+	padding:5px!important;
+}
+.p-10{
+	padding:10px!important;
+}
+.pt-10{
+	padding-top:10px!important;
+}
+.pr-10{
+	padding-right:10px!important;
+}
+.pl-10{
+	padding-left:10px!important;
+}
+.pb-10{
+	padding-bottom:10px!important;
+}
+.m-10{
+	margin:10px!important;
+}
+.m-10-n{
+	margin-top:-10px!important;
+}
+.main-nav-list{
+	line-height:107px;
+}
+.f-18{
+	font-size:18px!important;
+}
+.f-30{
+	font-size:30px!important;
+}
+.text-d-none{
+	text-decoration:none!important;
+}
+.appointment-btn {
+	padding-top:33px!important;
+}
+.appointment-btn a{
+	border: 2px solid white;
+	transition:1s;
+}
+.appointment-btn a:hover{
+	background-color:white; 
+	color:#44CC6D!important;
+	border:2px solid #000843!important;
+}
+.service-box img{
+	height:200px!important;
+	object-fit:cover;
+}
+.doctor-box {
+	border:2px dashed #000843;
+}
+.service-box>figure{
+	border-bottom:1px solid #44CC6D!important;
+}
+.app-content h4{
+	font-size:26px!important; 
+	font-weight:bold;
+}
+.main-from{
+	box-shadow: 0px 0px 4px 0px grey;
+	padding: 20px 25px;
+	border-radius: 10px;
+}
+.header-02 input,label{
+	display:none;
+}
+
